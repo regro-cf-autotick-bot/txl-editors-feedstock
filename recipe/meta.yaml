@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-editors" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_editors-{{ version }}.tar.gz
-  sha256: 52c2cf71a701dc67fa0aa7d17dc0edc7d841d2b4f250f38f391ccf2e4538e5aa
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/txl_editors-{{ version }}.tar.gz
+  sha256: dab8f5512f4b54c8f9ba62d3ddfacdd44a1cdd2546dd8e49cdc62d3a19a9462d
 
 build:
   noarch: python
